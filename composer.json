@@ -1,0 +1,19 @@
+{
+    "name": "haohui/taobaoke",
+    "type": "library",
+    "authors": [
+        {
+            "name": "haohui",
+            "email": "haohui.wu@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+
+        "psr-4": {
+            "haohui\\" : "src"
+        }
+
+    }
+}
