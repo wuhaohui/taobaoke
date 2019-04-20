@@ -28,9 +28,11 @@ class TopClient
 		return $this->appkey;
 	}
 
-	public function __construct($appkey = "",$secretKey = ""){
-		$this->appkey = $appkey;
-		$this->secretKey = $secretKey ;
+	public function __construct($appkey = '',$secretKey = ""){
+//		$this->appkey = $appkey;
+//		$this->secretKey = $secretKey ;
+        $this->appkey = config('taobaoke.appkey');
+        $this->secretKey = config('taobaoke.secretKey'); ;
 	}
 
 	protected function generateSign($params)
