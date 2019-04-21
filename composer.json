@@ -7,7 +7,7 @@
             "email": "haohui.wu@outlook.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "illuminate/support": "~5.0"
     },
